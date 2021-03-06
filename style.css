@@ -583,12 +583,12 @@ a {
     transform: scale(1.05);
 }
 
-.LastContainerCardWrapimg {
+.LastContainerCardBox {
     position: relative;
     flex: 1;
 }
 
-.LastContainerCardWrapimgImg {
+.LastContainerCardBoxImg {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -660,7 +660,7 @@ a {
   background-color: #F2F2F2;
   width: 100%;
 }
-.footerColumnwrapper {
+.footerCol{
   display: flex;
   max-width: 100%;
   width: 1440px;
@@ -668,38 +668,38 @@ a {
   padding: 0 32px;
   box-sizing: border-box;
 }
-.footerColumnwrapperColumn {
+.footerColSub {
   width: 30%;
   padding: 32px 32px;
 }
-.footerColumnwrapperColumnLink {
+.footerColSubLink {
   display: block;
   margin: 16px 0px;
 }
-.footerColumnwrapperColumnLink:hover {
+.footerColSubLink:hover {
   text-decoration: underline;
 }
 
 @media (max-width: 750px) {
-  .footerColumnwrapper {
+  .footerCol {
     flex-direction: column;
     padding: 32px;
   }
-  .footerColumnwrapperColumn {
+  .footerColSub {
     width: 100%;
     padding: 0;
     margin: 16px 0px;
   }
-  .footerColumnwrapperColumn:first-child {
+  .footerColSub:first-child {
     margin-top: 0;
   }
-  .footerColumnwrapperColumn:last-child {
+  .footerColSub:last-child {
     margin-bottom: 0;
   }
-  .footerColumnwrapperColumnTitle {
+  .footerColSubTitle {
     margin: 0;
   }
-  .footerColumnwrapperColumnLink:last-child {
+  .footerColSubLink:last-child {
     margin-bottom: 0;
   }
 }
