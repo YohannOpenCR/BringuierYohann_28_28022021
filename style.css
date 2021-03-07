@@ -215,7 +215,7 @@ a {
 
 .searchFiltersFilter:hover {
     transform: scale(1.0);
-    background-color: #f3f8ff;
+    background-color: #DEEBFF;
 }
 
 .searchFiltersFilterWrapicon {
@@ -571,10 +571,10 @@ a {
 }
 
 .LastContainerCard {
+    display: flex;
     box-shadow: 0 0 20px #0000002e;
     border-radius: 16px;
     overflow: hidden;
-    display: flex;
     flex-direction: column;
     transition-duration: 0.1s;
 }
