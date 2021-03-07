@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1100px) {
     .header {
         grid-template-columns: auto 1fr auto;
         grid-template-areas: "logo . button" "navbar navbar navbar";
@@ -84,7 +84,7 @@
         row-gap: 32px;
     }
     .hostingPopular {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-template-rows: auto 160px;
         column-gap: 32px;
         grid-row-start: 1;
@@ -96,6 +96,12 @@
 
 /******* FIN HOSTING POPULAR *******/ 
 
+@media (max-width: 1000px) {
+    .hostingPopular {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto repeat(48px, 144px);
+    }
+}
 @media (min-width: 925px) {
     .hostingMain {
         grid-template-columns: repeat(3, 1fr);
@@ -114,46 +120,36 @@
     }
 }
 
-@media (max-width: 1000px) {
-    .hostingPopular {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto repeat(48px, 144px);
-    }
-}
-
 
 /******* FIN POPULARY COL *******/ 
 
-@media (min-width: 1100px) {
-    .LastContainer {
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: auto 224px 32px 32px 32px 224px;}
-    }
+
     
     @media (max-width: 1100px) {
-        .LastContainer {
+        .MainLastContainer {
         row-gap: 32px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto 192px 192px;
       }
     }
-    @media (max-width: 925px) {
-        .LastContainer {
+    @media (max-width: 925px) and (min-width: 650px) {
+        .MainLastContainer {
         row-gap: 32px;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
         grid-template-rows: auto 192px 192px 192px;
+        
       }
     }
     @media (max-width: 650px) {
-      .LastContainer {
+      .MainLastContainer {
         row-gap: 32px;
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
         grid-template-rows: auto 192px 192px 192px 192px 192px 192px;
       }
     }
 /******* FIN LAST CONTAINER  *******/ 
 
-@media (max-width: 750px) {
+@media (max-width: 650px) {
     .footerCol {
       flex-direction: column;
       padding: 32px;
