@@ -38,9 +38,8 @@
     }
 }
 
+
 /******* header End ********/
-
-
 
 @media screen and (max-width: 600px) {
     .searchForm {
@@ -76,7 +75,8 @@
     }
 }
 
-/******* FIN FIRST CONTENER *******/  
+
+/******* FIN FIRST CONTENER *******/
 
 @media (max-width: 1440px) {
     .hosting {
@@ -94,7 +94,8 @@
     }
 }
 
-/******* FIN HOSTING POPULAR *******/ 
+
+/******* FIN HOSTING POPULAR *******/
 
 @media (max-width: 1000px) {
     .hostingPopular {
@@ -102,6 +103,7 @@
         grid-template-rows: auto repeat(48px, 144px);
     }
 }
+
 @media (min-width: 925px) {
     .hostingMain {
         grid-template-columns: repeat(3, 1fr);
@@ -121,54 +123,100 @@
 }
 
 
-/******* FIN POPULARY COL *******/ 
+/******* FIN POPULARY COL *******/
 
+@media (min-width: 1100px) {
+    .MainLastContainer {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto 224px 32px 32px 32px 224px;
+    }
+    .VieuxPort {
+        grid-row: 2/7;
+        grid-column: 1/2;
+    }
+    .Pomègue {
+        grid-column: 2/3;
+        grid-row: 2/5;
+    }
+    .Calanques {
+        grid-column: 3/4;
+        grid-row: 2/7;
+    }
+    .DamedeGarde {
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+    .Frioul {
+        grid-column: 2/3;
+        grid-row: 6/7;
+    }
+    .Longchamp {
+        grid-column: 4/5;
+        grid-row: 4/7;
+    }
+}
 
-    
-    @media (max-width: 1100px) {
-        .MainLastContainer {
+@media (max-width: 1100px) {
+    .MainLastContainer {
         row-gap: 32px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto 192px 192px;
-      }
     }
-    @media (max-width: 925px) and (min-width: 650px) {
-        .MainLastContainer {
+}
+
+@media (max-width: 925px) {
+    .MainLastContainer {
         row-gap: 32px;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto 192px 192px 192px;
-        
-      }
     }
-    @media (max-width: 650px) {
-      .MainLastContainer {
+}
+
+@media (max-width: 650px) {
+    .MainLastContainer {
         row-gap: 32px;
         grid-template-columns: 1fr;
         grid-template-rows: auto 192px 192px 192px 192px 192px 192px;
-      }
     }
-/******* FIN LAST CONTAINER  *******/ 
+}
+
+
+/******* FIN LAST CONTAINER  *******/
 
 @media (max-width: 650px) {
     .footerCol {
-      flex-direction: column;
-      padding: 32px;
+        flex-direction: column;
+        padding: 32px;
     }
     .footerColSub {
-      width: 100%;
-      padding: 0;
-      margin: 16px 0px;
+        width: 100%;
+        padding: 0;
+        margin: 16px 0px;
     }
     .footerColSub:first-child {
-      margin-top: 0;
+        margin-top: 0;
     }
     .footerColSub:last-child {
-      margin-bottom: 0;
+        margin-bottom: 0;
     }
     .footerColSubTitle {
-      margin: 0;
+        margin: 0;
     }
     .footerColSubLink:last-child {
-      margin-bottom: 0;
+        margin-bottom: 0;
     }
-  }
+}
+
+/**** Page Register ****/
+@media (max-width: 925px) {
+    .boxregister>* {
+        flex: 1 1 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 192px 192px 192px 192px 192px 192px;
+    }
+    .boxlogin>* {
+        flex: 1 1 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 192px 192px 192px 192px 192px 192px;
+    }
+}

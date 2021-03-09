@@ -69,7 +69,6 @@ a {
 }
 
 
-
 /****Deuxième partie****/
 
 .main {
@@ -228,7 +227,6 @@ a {
 
 /******Conteneur Principal Hébergement Gauche******/
 
-
 .hostingWrapper,
 .hostingPopular,
 .hostingMain {
@@ -363,13 +361,7 @@ a {
 }
 
 
-
-
-
-
 /*******Mon dernier Containeur gauche avant Footer*******/
-
-
 
 .LastContainer {
     display: grid;
@@ -411,65 +403,74 @@ a {
 }
 
 
-
 /******ACTIVITY******/
-    
-.VieuxPort {
-    grid-row: 2/7;
-    grid-column: 1/2;
+
+.MainLastContainer {
+    display: grid;
+    column-gap: 32px;
+    margin: 64px 0px;
 }
 
-.Pomègue {
-    grid-column: 2/3;
-    grid-row: 2/5;
+.LastContainerTitle {
+    grid-column: 1/-1;
 }
 
-.Calanques {
-    grid-column: 3/4;
-    grid-row: 2/7;
+.LastContainerCard {
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.5s;
 }
 
-.DamedeGarde {
-    grid-column: 4/5;
-    grid-row: 2/3;
+.LastContainerCard:hover {
+    transform: scale(1.07);
 }
 
-.Frioul {
-    grid-column: 2/3;
-    grid-row: 6/7;
+.LastContainerCardBox {
+    position: relative;
+    flex: 1;
 }
 
-.Longchamp {
-    grid-column: 4/5;
-    grid-row: 4/7;
+.LastContainerCardBoxImgg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.LastContainerCardTitle {
+    margin: 19px 24px;
 }
 
 
 /**********Footer*********/
 
-.footer { 
-  background-color: #F2F2F2;
-  width: 100%;
+.footer {
+    background-color: #F2F2F2;
+    width: 100%;
 }
-.footerCol{
-  display: flex;
-  max-width: 100%;
-  width: 1440px;
-  margin: auto;
-  padding: 0 32px;
-  box-sizing: border-box;
+
+.footerCol {
+    display: flex;
+    max-width: 100%;
+    width: 1440px;
+    margin: auto;
+    padding: 0 32px;
+    box-sizing: border-box;
 }
+
 .footerColSub {
-  width: 30%;
-  padding: 32px 32px;
+    width: 30%;
+    padding: 32px 32px;
 }
+
 .footerColSubLink {
-  display: block;
-  margin: 16px 0px;
+    display: block;
+    margin: 16px 0px;
 }
+
 .footerColSubLink:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
-
-
-

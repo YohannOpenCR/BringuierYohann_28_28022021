@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/styleconnexion.css">
+    <link rel ="stylesheet" href="CSS/media.css">
+    <link rel ="stylesheet" href="CSS/register.css">
+    <script src="https://kit.fontawesome.com/b219c2ed85.js" crossorigin="anonymous"></script>
+    <meta name=viewport content="width=device-width">
+    <!--Intégration Script FontAwesome-->
+
+    <title>Réservia/Connexion</title>
+
+</head>
+
+<body>
+    <header>
+        <!--Début de mon entête-->
+        <header class="header">
+            <img class="headerImg" src="img/logo/Reservia.svg" alt="Reservia">
+            <nav class="headerNav">
+                <a class="headerNavLink" href="index.html">Retour à l'accueil</a>
+
+            </nav>
+
+        </header>
+
+    <section id="mainRegister">
+        <div class='RegisterTitle'>
+        <h2>Création de compte</h2> </div>
+        <section class="register"></div>
+       <!-- <form method="post" action="/index.html"> -->
+        <form>
+            <div class="wrapperregister">
+                <div class="boxregister">
+                    <div></div>
+                    <div><h4>CONTACT</h4></div>
+                    <div></div>
+                <!-- ICONE MAIL --><div><i class="fas fa-at"></i></div>
+                <!-- LABEL MAIL --> <div><label for="email"> Adresse mail du compte :</label></div>
+                <!-- AREA MAIL --><div><input name="Email" type="email" placeholder="compléter votre email" class="inputText"  required></div>
+
+                <div></div>
+                <div><h4>INFORMATIONS</h4></div>
+                <div></div>
+                <!-- Icone SEXE --><div><i class="fas fa-phone-alt"></i></div>
+                <!-- LABEL SEXE --><div><label for="sexe">Sexe :</label></div>
+                <!-- AREA SEXE --><div><select name="sexe" id="user-sex">
+    <option value="Homme">Homme</option>
+    <option value="Femme">Femme</option></select></div>
+                <!-- ICONE USER --><div><i class="fas fa-user-alt"></i></div>
+                <!-- LABEL LASTNAME --><div><label for="lastname"> Nom :</label></div>
+                <!-- AREA LASTNAME --><div><input type="text" id="name" name="user_name"  class="inputText" required></div>
+                <!-- ICONE USER --><div><i class="far fa-user"></i></div>
+                <!-- LABEL NAME --><div><label for="name"> Prénom :</label></div>
+                <!-- AREA NAME--> <div><input type="text" id="name" name="user_name"  class="inputText"  required></div>
+                <!-- ICONE BIRTHDAY --><div><i class="fas fa-birthday-cake"></i></div>
+                <!-- LABEL BIRTHDAY --><div><label for="name">Date d'anniversaire : </label></div>
+                <!-- DATEPICKER BIRTHDAY --><div><input type="date" name="date_anniversaire" class="inputText"  required></div>
+                <!-- Icone Phone --><div><i class="fas fa-phone-alt"></i></div>
+                <!-- LABEL PHONE --><div><label for="phone"> Telephone :</label></div>
+                <!-- AREA PHONE --><div><input name="phone" type="tel" placeholder="Votre téléphone"  class="inputText"></div>
+                <div></div>
+                <div><h4>IDENTIFIANT</h4></div>
+                <div></div>
+                <!-- ICONE PSEUDO --><div><i class="far fa-address-card"></i></div>
+                <!-- LABEL PSEUDO --><div><label for="pseudo"> Pseudonyme :</label></div>
+                <!-- AREA PSEUDO--> <div><input type="text" value="#" class="field left" readonly="readonly"  maxlength="1" size="1"> <input type="text" id="name" name="user_pseudo"  class="inputText" required></div>
+                <!-- ICONE LOCK --><div><i class="fas fa-lock"></i></div>
+                <!-- LABEL LASTNAME --><div><label for="paswword"> Mot de passe :</label></div>
+                <!-- AREA LASTNAME --><div><input type="password" id="pass" name="password" minlength="8" class="inputText" required></div>
+
+                <div><!-- VIDE SAUT DE LIGNE--></div>
+                <div><!-- VIDE SAUT DE LIGNE--></div>
+                <div><!-- VIDE SAUT DE LIGNE--></div>
+                <!-- Bouton Effacer --><div><button class="ButtonRegisterReset" type="reset" formmethod="reset"><i class="fas fa-sync-alt"></i> Recommencer</button></div>
+                <div><!-- VIDE SAUT DE LIGNE--></div>
+                <!-- Bouton Valider --><div><button onclick="window.location.href='index.html'" class="ButtonRegisterValid" type="submit" formmethod="post"><i class="far fa-check-circle"></i>Créer un compte</button></a></div>
+                </div>
+                <h3>Vous possédez déjà un compte d'utilisateur ?<br/> <a href="login.html"><i class="fas fa-hand-point-right"></i> Cliquez-ici pour vous connecter</a></h3>
+              </div>
+
+
+                <!--100 % A FAIRE - Info MANDATORY <div> <h6>Les champs avec un astéristque (*) sont obligatoire.</h6></div>-->
+              
+        </form>
+    </section>
+        <section class="shadow"></section>
+    </section>
+</body>
+
+
+</html>
