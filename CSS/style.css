@@ -85,7 +85,7 @@ a {
     margin-bottom: 8px;
 }
 
-.searchHeaderSubtitle {
+.searchHeader_Para {
     margin-top: 0px;
 }
 
@@ -98,18 +98,18 @@ a {
     overflow: auto;
 }
 
-.searchFormWrapicon {
+.searchForm_Icon {
     text-align: center;
     padding: 16px 20px;
     border-radius: 16px 0px 0px 16px;
     background-color: #F2F2F2;
 }
 
-.searchFormWrapiconIcon {
+.searchForm_Icon {
     margin-left: 0.1rem;
 }
 
-.searchFormSearchinput {
+.searchForm_Searchinput {
     font-family: "Raleway", "Sans serif";
     border-right: none;
     border-left: none;
@@ -122,7 +122,7 @@ a {
     border-bottom: #F2F2F2 1px solid;
 }
 
-.searchFormSearchinput::placeholder {
+.searchForm_Searchinput::placeholder {
     font-family: "Raleway", "Sans serif";
     font-size: 16px;
     color: #00000069;
@@ -155,7 +155,7 @@ a {
     margin: 0px 32px 16px 0px;
 }
 
-.searchFiltersFilter {
+.search_MoreFilters {
     display: flex;
     align-items: center;
     margin-bottom: 16px;
@@ -167,16 +167,16 @@ a {
     transition-duration: 0.5s;
 }
 
-.searchFiltersFilter:last-child {
+.search_MoreFilters:last-child {
     margin-right: 0px;
 }
 
-.searchFiltersFilter:hover {
+.search_MoreFilters:hover {
     transform: scale(1.0);
     background-color: #DEEBFF;
 }
 
-.searchFiltersFilterWrapicon {
+.searchFilters_Icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,11 +189,11 @@ a {
     background-color: #DEEBFF;
 }
 
-.searchFiltersFilterWrapiconIcon {
+.searchFilters_Icone {
     color: rgb(0, 0, 255);
 }
 
-.searchFiltersFilterTitle {
+.search_FilterTitle {
     margin: 0px 16px;
 }
 
@@ -203,7 +203,7 @@ a {
     margin: 16px 0px 32px 0px;
 }
 
-.searchResultWrapicon {
+.searchResul_Icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -216,11 +216,11 @@ a {
     border: solid 1px #d9d9d9;
 }
 
-.searchResultWrapiconIcon {
+.searchResult_Icon {
     color: #0065FC;
 }
 
-.searchResultText {
+.searchResult_Text {
     margin: 0px;
 }
 
@@ -247,15 +247,15 @@ a {
     row-gap: 32px;
 }
 
-.hostingMainHeader {
+.hostingHeader {
     grid-column: 1/-1;
 }
 
-.hostingMainHeaderTitle {
+.hostingHeaderTitle {
     margin: 0;
 }
 
-.hostingMainCard {
+.hosting_MainTemplate {
     background-color: white;
     padding: 6px;
     border-radius: 20px;
@@ -266,15 +266,15 @@ a {
     height: 100%;
 }
 
-.hostingMainCard:hover {
+.hostingCard:hover {
     transform: scale(1.00);
 }
 
-.hostingMainCardFigure {
+.hosting_Template {
     margin: 0;
 }
 
-.hostingMainCardFigureImg {
+.hosting_TemplateImg {
     height: 112px;
     object-fit: cover;
     max-width: 100%;
@@ -283,33 +283,34 @@ a {
     border-radius: 16px 16px 0px 0px;
 }
 
-.hostingMainCardFigureCaptionTitle {
+.hosting_TemplateTitle {
     margin: 4px 12px 0px 12px;
 }
 
-.hostingMainCardDesc {
+.hosting_Description {
     margin: 4px 12px 4px 12px;
 }
 
-.hostingMainCardDescPrice {
+.hosting_NightPrice {
     font-weight: bold;
 }
 
-.hostingMainCardGrade {
+.hostingCardGrade {
     margin: 12px 4px 12px;
 }
 
-.hostingMainCardGradeIcon[data-active=true] {
+.hostingStars[data-active=true] {
     color: #0065FC;
 }
 
-.hostingMainCardGradeIcon[data-active=false] {
+.hostingStars[data-active=false] {
     color: #d9d9d9;
 }
 
-.hostingMainViewmore {
+.hostingViewmore {
     font-weight: bold;
 }
+
 
 .hostingPopular {
     display: grid;
@@ -324,14 +325,14 @@ a {
     justify-content: space-between;
 }
 
-.hostingPopularWrapcontent {
+.hosting_ContainerPopular {
     display: flex;
     align-items: stretch;
     height: 100%;
     overflow: auto;
 }
 
-.hostingPopularWrapcontentWrapimg {
+.hostingPopular_Img{
     position: relative;
     min-height: 100%;
     width: 33%;
@@ -339,7 +340,7 @@ a {
     max-width: 33%;
 }
 
-.hostingPopularWrapcontentWrapimgImg {
+.hostingPopular_Image{
     border-radius: 16px 0px 0px 16px;
     position: absolute;
     width: 100%;
@@ -347,21 +348,21 @@ a {
     object-fit: cover;
 }
 
-.hostingPopularWrapcontentContent {
+.hostingPopular_Container {
     display: flex;
     flex-direction: column;
 }
 
-.hostingPopularWrapcontentContentWhitespace {
+.hosting_WhiteBlock {
     flex: 1;
 }
 
-.hostingPopularhostingMainCard {
+.hostingPopularhosting_Block {
     height: 140px;
 }
 
 
-/*******Mon dernier Containeur gauche avant Footer*******/
+/*******Mon dernier Containeur t Footer*******/
 
 .LastContainer {
     display: grid;
