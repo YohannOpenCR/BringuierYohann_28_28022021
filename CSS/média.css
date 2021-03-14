@@ -1,0 +1,295 @@
+@media screen and (max-width: 650px) {
+    .Main{
+        padding: 0px ;
+    }
+  
+}
+
+/*********************HEADER Réservia*********************/
+
+@media screen and (min-width: 601px) {
+    .header_Main {
+        grid-template-columns: auto 1fr auto auto;
+        grid-template-areas: "logo . navbar button";
+    }
+    .header_NavLink[data-active=true] {
+        border-top: 3px solid #0065FC;
+    }
+    .header_NavLink:hover {
+        border-top: 3px solid #0065FC;
+    }
+}
+@media screen and (max-width: 900px) {
+    .header_Main {
+        grid-template-columns: auto 1fr auto;
+        grid-template-areas: "logo . button" "navbar navbar navbar";
+    }
+
+    .header_Img {
+        order: 0;
+        margin: 15px;
+    }
+    .header_Signup {
+        order: 1;
+        margin: 0px;
+        padding: 15px;
+    }
+    .header_Nav {
+        order: 2;
+    }
+    .header_NavLink {
+        border-top: none;
+        border-bottom: 3px solid #dadada8f;
+        width: 50%;
+        padding: 10px 0px;
+    }
+    .header_NavLink:hover {
+        transition-duration: 0.5s;
+        border-bottom: 2px solid #0065FC;
+    }
+  
+}
+/*********************Search-Bar*********************/
+
+@media screen and (max-width: 600px) {
+    .search_Form {
+        display: flex;
+        width: 100%;
+    }
+    .search_FormInput {
+        flex: 2;
+    }
+    .search_FormSubInputText {
+        display: none;
+    }
+    .search_FormSubInputIcon {
+        display: block;
+    }
+}
+@media screen and (min-width: 601px) {
+    .search_FormSubInputText {
+        display: block;
+    }
+    .search_FormSubInputIcon {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 650px) {
+    .search_FilterTitle {
+        margin: 5px;
+    }
+    .search_HeaderTitle {
+        margin: 15px 0px;
+        padding: 5px;
+    }
+    .search_HeaderSubtitle {
+        margin: 0px 0px 30px 5px;
+    }
+    .search_FormSubInput{
+        border-radius: 20%;
+        margin: 0px 10px 0px 0px;
+    }
+    .search_MoreFilters{
+        border: 0px 0px;
+        margin: 0px ;
+        height: 100%;
+        width: auto;
+    }
+    .search_main{
+        margin: 10px;
+    }
+    .Result_Ico{
+        margin: 0px 8px 0px 0px;
+    }
+    .search_FormWrapicon{
+        margin: 0px 0px 0px 5px;
+    }   
+}
+
+/*********************Filters*********************/
+
+@media screen and (max-width: 650px) {
+    .search_FiltersTitle {
+        width: 100%;
+        margin: 30px 5px 15px 0px;
+        
+    }
+    .search_MoreFilters {
+        margin-right: 16px;
+        margin: 5px;
+    }
+    .search_Filters{
+        margin: 0px 0px 20px 0px;
+        padding: 10px;
+    }
+}
+
+/*********************Hosting left*********************/
+
+@media (max-width: 1100px) {
+    .hosting {
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+    }
+    .hosting_Popular {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto 160px;
+        column-gap: 32px;
+        grid-row-start: 1;
+    }
+    .hosting_PopularTitle {
+        grid-column: 1/-1;
+    }
+}
+
+
+/******* FIN HOSTING POPULAR *******/
+
+@media (max-width: 1000px) {
+    .hosting_Popular {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto repeat(48px, 144px);
+    }
+}
+
+@media (min-width: 925px) {
+    .hosting_Main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 925px) and (min-width: 650px) {
+    .hosting_Main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 650px) {
+    .hosting_Main {
+        grid-template-columns: 1fr;
+        background-color: transparent;
+        font-size: 10pt;
+        row-gap: 12px;
+        padding: 15px;
+    }
+
+    .hosting_MainTemplate{
+        box-shadow: 3px 3px 3px 3px #f2f2f293;
+    }
+
+    .hostingViewmore{
+        padding: 20px 0px;
+        font-size: 16pt;
+    }
+}
+
+
+/*********************Hosting right*********************/
+@media (min-width: 1100px) {
+    .Activity_Main {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto 224px 32px 32px 32px 224px;
+    }
+    .VieuxPort {
+        grid-row: 2/7;
+        grid-column: 1/2;
+    }
+    .Pomègue {
+        grid-column: 2/3;
+        grid-row: 2/5;
+    }
+    .Calanques {
+        grid-column: 3/4;
+        grid-row: 2/7;
+    }
+    .DamedeGarde {
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+    .Frioul {
+        grid-column: 2/3;
+        grid-row: 6/7;
+    }
+    .Longchamp {
+        grid-column: 4/5;
+        grid-row: 4/7;
+    }
+}
+@media (max-width: 1100px) {
+    .Activity_Main {
+        row-gap: 32px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 192px 192px;
+    }
+}
+@media (max-width: 925px) {
+    .Activity_Main {
+        row-gap: 32px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 192px 192px 192px;
+    }
+}
+@media (max-width: 650px) {
+    .Activity_Main {
+        row-gap: 32px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin: 0px;
+        padding: 20px;
+    }
+    .Activity_Template{
+        display: flex;
+        box-shadow: 0 0 20px #0000002e;
+        border-radius: 16px;
+        overflow: hidden;
+        flex-direction: column;
+        transition-duration: 0.5s;
+        width: 100%;
+        height: 210px;
+        box-shadow: 3px 3px 3px 3px #f2f2f29f;
+    }
+    .Activity_Title{
+        padding: 15px;
+    }
+}
+/********************Footer*********************/
+
+@media (max-width: 650px) {
+    .footerCol {
+        flex-direction: column;
+        padding: 50px;
+        margin-left: 15px;
+        
+    }
+    .footerColSub {
+        width: 100%;
+        padding: 0;
+        margin: 20px 0px;
+    }
+    .footerColSub:first-child {
+        margin-top: 0;
+    }
+    .footerColSub:last-child {
+        margin-bottom: 0;
+    }
+    .footerColSubTitle {
+        margin: 0;
+    }
+    .footerColSubLink:last-child {
+        margin-bottom: 0;
+    }
+}
+/********************Register Page*********************/
+
+@media (max-width: 925px) {
+    .boxregister>* {
+        flex: 1 1 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 192px 192px 192px 192px 192px 192px;
+    }
+    .boxlogin>* {
+        flex: 1 1 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 192px 192px 192px 192px 192px 192px;
+    }
+}
