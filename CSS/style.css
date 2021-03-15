@@ -191,7 +191,7 @@ a {
 .hosting_Main{
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 32px;
+    padding: 30px;
 }
 
 .hosting {
@@ -230,7 +230,7 @@ a {
     margin: 0;
 }
 .hosting_TemplateImg {
-    height: 112px;
+    height: 150px;
     object-fit: cover;
     max-width: 100%;
     width: 100%;
@@ -257,6 +257,8 @@ a {
 }
 .hostingViewmore {
     font-weight: bold;
+    margin: 20px 0px;
+    font-size: large;
 }
 
 
@@ -305,7 +307,7 @@ a {
 }
  
 .hosting_PopularBlock {
-    height: 140px;
+    height: 160px;
 }
 
 /*********************Activity*********************/
