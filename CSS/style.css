@@ -26,7 +26,7 @@ a {
     align-items: center;
     margin: 0px;
 }
-.header_Img {
+.header_Img{
     grid-area: logo;
     height: 45px;
     margin: 0px 32px;
@@ -51,7 +51,7 @@ a {
 .header_NavLink:hover {
     color: #0065FC;
 }
-.header_Signup {
+.header_Signup{
     display: flex;
     align-items: center;
     grid-area: button;

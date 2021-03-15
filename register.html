@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -15,18 +15,13 @@
 </head>
 
 <body>
-    <header>
         <!--*********************HEADER Réservia*********************-->
         <header class="header_Main">
             <img class="header_Img" src="img/logo/Reservia.svg" alt="Reservia">
                 <nav class="header_Nav">
                     <a class="header_NavLink" href="index.html">Retour à l'accueil</a>
-                    </nav>
-                    
+                </nav>     
         </header>
-    </header>
-
-
 
             <section id="mainRegister">
                 <div class='RegisterTitle'>
@@ -46,7 +41,7 @@
                                 <!-- ICONE MAIL -->
                                 <div><i class="fas fa-at"></i></div>
                                 <!-- LABEL MAIL -->
-                                <div><label for="email"> Adresse mail du compte :</label></div>
+                                <div><label for="email" id="email"> Adresse mail du compte :</label></div>
                                 <!-- AREA MAIL -->
                                 <div><input name="Email" type="email" placeholder="compléter votre email"
                                         class="inputText" required></div>
@@ -76,7 +71,7 @@
                                 <!-- LABEL NAME -->
                                 <div><label for="name"> Prénom :</label></div>
                                 <!-- AREA NAME-->
-                                <div><input type="text" id="name" name="user_name" class="inputText" required></div>
+                                <div><input type="text" id="name" name="user" class="inputText" required></div>
                                 <!-- ICONE BIRTHDAY -->
                                 <div><i class="fas fa-birthday-cake"></i></div>
                                 <!-- LABEL BIRTHDAY -->
@@ -108,7 +103,7 @@
                                 <!-- LABEL LASTNAME -->
                                 <div><label for="paswword"> Mot de passe :</label></div>
                                 <!-- AREA LASTNAME -->
-                                <div><input type="password" id="pass" name="password" minlength="8" class="inputText"
+                                <div><input type="password" id="password" name="password" minlength="8" class="inputText"
                                         required></div>
 
                                 <div>
@@ -137,10 +132,9 @@
 
 
                         <!--100 % A FAIRE - Info MANDATORY <div> <h6>Les champs avec un astéristque (*) sont obligatoire.</h6></div>-->
-
+                    </div>
                     </form>
                 </section>
-                <section class="shadow"></section>
             </section>
 </body>
 

@@ -25,7 +25,7 @@
         grid-template-areas: "logo . button" "navbar navbar navbar";
     }
 
-    .header_Img {
+    .header_Img{
         order: 0;
         margin: 15px;
     }
