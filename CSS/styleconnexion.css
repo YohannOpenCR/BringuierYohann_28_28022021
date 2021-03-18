@@ -181,3 +181,59 @@ a {
         text-align: center;
         margin: 50px 0px 20px 0px;
     }
+
+    /*********************NEW************************/
+    #Page_Register{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Register_Title{
+        display: flex;
+        text-align: center;
+        height: 100px;
+        width: 1000px;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        justify-content: center;
+        margin: 100px 200px;
+    }
+    /*.Principal_Body{
+        background-color: #F2F2F2;
+        border-radius: 20px;
+    }*/
+
+    .contact{
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Input_Sexe{
+        display: grid;
+        text-align: center;
+        height: 500px;
+        width: 1000px;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        justify-content: center;
+        margin: 100px 200px;
+    }
+
+    .User{
+        display: grid;
+        text-align: center;
+        height: 500px;
+        width: 1000px;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        justify-content: center;
+        margin: 100px 200px;
+    }
+
+
+
+
+    

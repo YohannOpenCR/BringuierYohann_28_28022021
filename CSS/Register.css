@@ -1,0 +1,205 @@
+#Main_Header{
+    display: flex;
+    flex-direction: row;
+    flex: 0 2 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.Img_Header{
+    display: flex;
+    margin: 10px 50px;
+}
+ .Nav_Header{
+    margin: 10px 50px;
+ }
+
+#Page_Main{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+
+.Register_Title{
+    display: flex;
+    text-align: center;
+    height: 100px;
+    width: 1000px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    justify-content: center;
+    margin: 50px 200px;
+    color: #0065FC;
+    font-size: 30px;
+}
+
+h2{
+    text-align: center;
+    margin: auto;
+}
+
+h4{
+    color: #0065FC;
+}
+
+.contact{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F2F2F2;
+    height: 100px;
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.Information{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+    background-color: #F2F2F2;
+    height: 300px;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+h4{
+    text-align: center;
+}
+
+#User_More{
+    margin: 10px;
+}
+
+#name{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F2F2F2;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#Username{
+    background-color: #F2F2F2;
+    height: 200px;
+    width: 485px;
+    border-radius: 20px;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#password{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F2F2F2;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+
+#Pseudo{
+    border-radius: 20px;
+    text-align: center;
+    background-color: #F2F2F2;
+    color: blue;
+}
+
+.Identifiant_Info{
+    padding: 10px;
+}
+
+
+
+
+/*****************BOUTON******************/
+
+.Button{
+    display: flex;
+    justify-content: center;
+}
+
+.ButtonRegisterValid {
+    background-color:#0065FC;
+    border-radius:30px;
+    border:3px solid #000000;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: "Raleway", "Sans serif";
+    font-size:14px;
+    padding:17px 51px;
+    text-decoration:none;
+    text-shadow:0px 0px 0px #0065FC;
+    margin: auto;
+}
+
+.ButtonRegisterReset {
+    background-color:#e4685d;
+    border-radius:30px;
+    border:3px solid #000000;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: "Raleway", "Sans serif";
+    font-size:14px;
+    padding:17px 51px ;
+    text-decoration:none;
+    align-items: center;
+    margin: auto;
+    background-color:#eb675e;
+}
+
+h2 
+{
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+
+.Return_Signup{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+
+/******************FOOTER********************/
+
+.footer{
+    background-color: #F2F2F2;
+    width: auto;
+    height: auto;
+    margin: 0px 40px;
+}
+
+.footerCol {
+    display: flex;
+    max-width: 100%;
+    padding: 0px 52px;
+    justify-content: left;
+    box-sizing: border-box;
+}
+
+.footerColSub {
+    width: 30%;
+    padding: 32px 0px;
+}
+
+.footerColSubLink {
+    display: block;
+    margin: 16px 0px;
+}
+
+.footerColSubLink:hover {
+    text-decoration: underline;
+}
+
+
