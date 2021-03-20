@@ -79,8 +79,8 @@ a {
     #Main_Header{
         display: flex;
         height: auto;
-        width: 550px;
-        margin-left: -30px;
+        width: 510px;
+        margin-left: -10px;
     }
 
     .NavLink_Header{
