@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+
+body {
+    font-family: "Raleway", "Sans serif";
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.Main {
+    max-width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0px 32px;
+}
+
+
+.RegisterTitle{
+    font-family: "Raleway", "Sans serif";
+    text-decoration: underline;
+    margin: auto;
+    height: 100px;
+    width: 500px;
+    color: #0065FC;
+    margin-top: 100px;
+}
+
+.WrapperLogin{
+    display: grid;
+    background-color: #f2f2f2;
+    margin: auto;
+    padding: 60px;
+    height: 400px;
+    width: 500px;
+    margin-top: 0px; 
+    border-radius: 20px;
+    align-items: center;
+}
+
+#Lock{
+    font-size: 20px;
+    color:#0065FC;
+    margin:  10px 25px;
+}
+
+#LogMail{
+    font-size: 20px;
+    color: #0065FC;
+    margin: 10px 25px;
+}
+
+.LoginButton{
+    justify-content: center;
+    margin: auto;
+}
+
+.No_login{
+    font-family: "Raleway", "Sans serif";
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.No_login{
+    color: #0065FC;
+}
+
+/*************************************************/
+
+* {
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 600px) {
+    
+    #Main_Header{
+        display: flex;
+        height: auto;
+        width: 550px;
+        margin-left: -30px;
+    }
+
+    .NavLink_Header{
+        display: none;
+    }
+
+    .Fafa_NavLink{
+        font-size: 30px;
+        color:#0065FC;
+    }
+
+    .Nav_Header:hover{
+        background-color: #F2F2F2;
+        height: 50px;
+        width: 80px;
+        padding: 7px;
+    }
+    .No_login{
+        margin: auto;
+        margin-top: 20px;
+        height: 100px;
+        width: 500px;
+    }
+
+    .WrapperLogin{
+        border-radius: 0px;
+    }
+  }

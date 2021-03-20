@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 #Main_Header{
     display: flex;
     flex-direction: row;
@@ -5,13 +6,39 @@
     align-items: center;
     justify-content: space-between;
 }
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
 .Img_Header{
     display: flex;
     margin: 10px 50px;
 }
  .Nav_Header{
     margin: 10px 50px;
+    font-size: 20px;
  }
+
+ .Nav_Header:hover{
+     background-color: #F2F2F2;
+     height: 50px;
+     width: 250px;
+     border-radius: 20px;
+     text-align: center;
+     padding: 5px;
+ }
+
+ .NavLink_Header{
+     color: #0065FC;
+ }
+
+ .Fafa_NavLink{
+     font-size: 30px;
+     color: #0065FC;
+ }
+
 
 #Page_Main{
     display: grid;
@@ -23,9 +50,10 @@
 .Register_Title{
     display: flex;
     text-align: center;
-    height: 100px;
-    width: 1000px;
-    background-color: #F2F2F2;
+    text-decoration: underline;
+    margin: auto;
+    height: auto;
+    width: auto;
     border-radius: 20px;
     justify-content: center;
     margin: 50px 200px;
@@ -44,9 +72,7 @@ h4{
 
 .contact{
     display: flex;
-    align-content: center;
     justify-content: center;
-    text-align: center;
     background-color: #F2F2F2;
     height: 100px;
     width: 500px;
@@ -55,8 +81,7 @@ h4{
 }
 
 .Information{
-    display: flex;
-    align-content: center;
+    display: grid;
     justify-content: center;
     text-align: left;
     background-color: #F2F2F2;
@@ -68,6 +93,8 @@ h4{
 
 h4{
     text-align: center;
+    margin: 0px;
+    padding: 20px;
 }
 
 #User_More{
@@ -97,7 +124,7 @@ h4{
 }
 
 #password{
-    display: flex;
+    display: grid;
     align-content: center;
     justify-content: center;
     text-align: center;
@@ -112,11 +139,9 @@ h4{
     text-align: center;
     background-color: #F2F2F2;
     color: blue;
+    margin: 10px;
 }
 
-.Identifiant_Info{
-    padding: 10px;
-}
 
 
 
@@ -175,9 +200,10 @@ h2
 
 .footer{
     background-color: #F2F2F2;
-    width: auto;
-    height: auto;
-    margin: 0px 40px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
 }
 
 .footerCol {
@@ -203,3 +229,130 @@ h2
 }
 
 
+/*********************************************/
+
+@media (max-width: 650px) {
+    .footerCol {
+        flex-direction: column;
+        padding: 50px;
+        margin-left: 15px;
+        
+    }
+    .footerColSub {
+        width: 100%;
+        padding: 0;
+        margin: 20px 0px;
+    }
+    .footerColSub:first-child {
+        margin-top: 0;
+    }
+    .footerColSub:last-child {
+        margin-bottom: 0;
+    }
+    .footerColSubTitle {
+        margin: 0;
+    }
+    .footerColSubLink:last-child {
+        margin-bottom: 0;
+    }
+}
+/********************Register Page*********************/
+
+@media (max-width: 925px) {
+    .boxregister>* {
+        flex: 1 1 100%;
+        font-size: large;
+    }
+    .boxlogin>* {
+        flex: 1 1 auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 192px 192px 192px 192px 192px 192px;
+    }
+}
+/************************************************************************************/
+
+* {
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 600px) {
+    
+    #Main_Header{
+        display: flex;
+        height: auto;
+        width: 440px;
+        margin-left: -40px;
+    }
+
+    .NavLink_Header{
+        display: none;
+    }
+
+    .Fafa_NavLink{
+        font-size: 30px;
+        color:#0065FC;
+    }
+
+    .Nav_Header:hover{
+        background-color: #F2F2F2;
+        height: 50px;
+        width: 80px;
+        padding: 7px;
+    }
+
+    .Register_Title{
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    
+
+    .contact{
+        margin: auto;
+        height: 100px;
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    .Information{
+        margin: auto;
+        height: 270px;
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    #Username{
+        margin: auto;
+        height: 200px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .Button{
+        display: grid;
+        margin: auto;
+        height: 100px;
+        width: auto;
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    .ButtonRegisterReset{
+        display: grid;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .ButtonRegisterValid{
+        display: grid;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .Return_Signup{
+        margin: 80px 0px 50px 0px;
+    }
+} 
+ 

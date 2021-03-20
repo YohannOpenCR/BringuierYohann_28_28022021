@@ -18,6 +18,11 @@ a {
     padding: 0px 32px;
 }
 
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
 
 /*********************HEADER Réservia*********************/
 .header_Main {

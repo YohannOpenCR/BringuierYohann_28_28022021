@@ -3,55 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/styleconnexion.css">
-    <link rel ="stylesheet" href="CSS/media.css">
+    <link rel="stylesheet" href="CSS/Register.css">
+    <link rel="stylesheet" href="CSS/Login.css">
     <script src="https://kit.fontawesome.com/b219c2ed85.js" crossorigin="anonymous"></script>
     <meta name=viewport content="width=device-width">
-    <!--Intégration Script FontAwesome-->
-
     <title>Réservia/Connexion</title>
-
 </head>
 
-<body>
-        <!--Début de mon entête-->
-        <header class="header_Main">
-            <img class="header_Img" src="img/logo/Reservia.svg" alt="Reservia">
-            <nav class="header_Nav">
-                <a class="header_NavLink" href="index.html">Retour à l'accueil</a>
-            </nav>
+    <body>
+        <header id="Main_Header">
+            <img class="Img_Header" src="img/logo/Reservia.svg" alt="Reservia">
+                <nav class="Nav_Header">
+                    <a class="Fafa_NavLink" href="index.html"><i class="fas fa-home"></i></a>
+                    <a class="NavLink_Header" href="index.html">&nbsp; Retour à l'accueil</a>
+                </nav>     
         </header>
 
-    <section id="mainRegister">
-        <div class='RegisterTitle'>
-        <h2>Se connecter</h2> 
-        </div>
-       <!-- <form method="post" action="/index.html"> -->
-        <form>
-            <div class="wrapperlogin">
-                <div class="boxlogin">
-                <!-- ICONE MAIL --><div><i class="fas fa-at"></i></div>
-                <!-- LABEL MAIL --> <div><label for="Email"> Adresse mail du compte :</label></div>
-                <!-- AREA MAIL --><div><input type="Email" id="Email" name="Email" placeholder="compléter votre email" class="inputText" required></div>
-                <!-- ICONE USER --><div><i class="fas fa-user-alt"></i></div>
-                <!-- LABEL LASTNAME --><div><label for="password"> Mot de passe :</label></div>
-                <!-- AREA LASTNAME --><div><input type="password" id="password" name="password" placeholder="Mot de passe" minlength="8" class="inputText" required></div>
-<div></div><div></div><div></div><div></div><div></div><div></div>
-                <!-- Bouton Valider --><div><button onclick="window.location.href='index.html'" class="ButtonRegisterValid" type="submit" formmethod="post">
-                    <i class="far fa-check-circle"></i> Connection</button></div>
-                </div>
-                <h3>Vous n'avez pas de compte ?<br/> <a href="register.html"><i class="fas fa-hand-point-right"></i> Cliquez-ici pour vous inscrire.</a></h3>
-              </div>
+        <section id="mainRegister">
+            <div class='RegisterTitle'><h2>Se connecter</h2></div>
 
+            <form>
+                <div class="WrapperLogin">
+                    <div class="BoxLogin">
+                        <i id="LogMail" class="fas fa-at"></i>
+                            <label for="Email"> Adresse mail :</label>
+                                <input type="Email" id="Email" name="Email" placeholder="compléter votre email" class="inputText" required></div>
 
-                <!--100 % A FAIRE - Info MANDATORY <div> <h6>Les champs avec un astéristque (*) sont obligatoire.</h6></div>-->
-              
-        </form>
-    
-    
-    </section>
-</body>
+                    <div class="LoginPassword"><i id="Lock" class="fas fa-key"></i>
+                        <label for="password"> Mot de passe :</label>
+                            <input type="password" id="LoginPassword" name="password" placeholder="Mot de passe" minlength="8" class="inputText" required></div>
 
+                    <div class="LoginButton"><button onclick="window.location.href='index.html'" class="ButtonRegisterValid" type="submit" formmethod="post">
+                        <i class="far fa-check-circle"></i> Connection</button></div>
+
+                    </div>
+                        <h3 class="No_login">Vous n'avez pas de compte ?<br/> <a href="register.html">
+                            <i class="fas fa-hand-point-right"></i> Cliquez-ici pour vous inscrire.</a></h3>
+                </div>   
+            </form>
+        </section>
+    </body>
 
 </html>
