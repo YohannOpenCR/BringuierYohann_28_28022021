@@ -27,7 +27,7 @@ a:link
 /*********************HEADER Réservia*********************/
 .header_Main {
     display: grid;
-    max-width:  100px;
+    max-width:  100%;
     align-items: center;
     margin: 0px;
 }
