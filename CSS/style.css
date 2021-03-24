@@ -27,7 +27,7 @@ a:link
 /*********************HEADER Réservia*********************/
 .header_Main {
     display: grid;
-    max-width:  100;
+    max-width:  100px;
     align-items: center;
     margin: 0px;
 }
@@ -44,7 +44,6 @@ a:link
 .header_NavLink {
     text-align: center;
     padding: 32px;
-    font-weight: 0px;
     border-top: 3px transparent solid;
     border-bottom: 3px transparent solid;
     transition-duration: 0.5s;
@@ -60,7 +59,6 @@ a:link
     display: flex;
     align-items: center;
     grid-area: button;
-    font-weight: 600px;
     padding: 32px;
     color: #0065FC;
 }
